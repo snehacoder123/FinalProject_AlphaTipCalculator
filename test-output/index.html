@@ -1,0 +1,2619 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 57 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2484060\Downloads\AlphaTipCalculator (1)\AlphaTipCalculator\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">60 methods, 57 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error)">runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected)">runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled)">runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted)">runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes)">runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown)">runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared)">runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown)">runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works)">runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti)">runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct)">runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted)">runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes)">runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error)">runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti)">runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error)">runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct)">runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay)">runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works)">runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal)">runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_004, &quot;&quot;, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_004, "", INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown)">runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal)">runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_010, 1000, INR, 2, 6, SYNC, Star &amp; slider sync)">runTest(TC_010, 1000, INR, 2, 6, SYNC, Star & slider sync)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay)">runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown)">runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled)">runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes)">runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works)">runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error)">runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared)">runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct)">runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works)">runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_010, 1000, INR, 2, 6, SYNC, Star &amp; slider sync)">runTest(TC_010, 1000, INR, 2, 6, SYNC, Star & slider sync)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay)">runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal)">runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal)">runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown)">runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct)">runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti)">runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted)">runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay)">runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes)">runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected)">runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted)">runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error)">runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti)">runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error)">runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_004, &quot;&quot;, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_004, "", INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown)">runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully)">runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully)">runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="tests.TipCalculatorTest" class="method navigator-link" hash-for-method="runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message)">runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.TipCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error)">
+                  </a> <!-- runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_007,1000,INR,1.5,5,INVALID_PEOPLE,Error)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected)">
+                  </a> <!-- runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_008,1000,INR,2,7,STAR_RATING,Star selected)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled)">
+                  </a> <!-- runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_019,1000,INR,2,5,THEME,Theme toggled)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_004,0,INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted)">
+                  </a> <!-- runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_006,1000,INR,3,5,VALID_PEOPLE,Accepted)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes)">
+                  </a> <!-- runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_005,1000,EUR,2,5,CURRENCY,Symbol changes)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown)">
+                  </a> <!-- runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_015,1000,INR,2,5,MEDIUM_RATING,Message shown)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared)">
+                  </a> <!-- runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_018,1000,INR,2,5,RESET,Cleared)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown)">
+                  </a> <!-- runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_013,1000,INR,2,5,POPUP,Popup shown)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_003,abc,INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_004,-500,INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works)">
+                  </a> <!-- runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_020,1000,INR,2,5,RESPONSIVE,UI works)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti)">
+                  </a> <!-- runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_016,1000,INR,2,6,HIGH_RATING,Confetti)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct)">
+                  </a> <!-- runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_012,1000,INR,2,5,SPLIT,Per person correct)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted)">
+                  </a> <!-- runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_002,1000.5,INR,2,5,VALID,Bill accepted)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes)">
+                  </a> <!-- runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_005,1000,USD,2,5,CURRENCY,Symbol changes)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error)">
+                  </a> <!-- runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_007,1000,INR,0,5,INVALID_PEOPLE,Error)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti)">
+                  </a> <!-- runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_016,1000,INR,2,8,HIGH_RATING,Confetti)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error)">
+                  </a> <!-- runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_007,1000,INR,-2,5,INVALID_PEOPLE,Error)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct)">
+                  </a> <!-- runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_011,1000,INR,2,5,CALCULATION,Tip correct)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay)">
+                  </a> <!-- runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_017,1000,INR,2,9,CELEBRATION,Overlay)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works)">
+                  </a> <!-- runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_009,1000,INR,2,5,SLIDER_RATING,Slider works)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal)">
+                  </a> <!-- runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_014,1000,INR,2,2,LOW_RATING,Feedback modal)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_004, &quot;&quot;, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_004, "", INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_004,"",INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown)">
+                  </a> <!-- runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_015,1000,INR,2,3,MEDIUM_RATING,Message shown)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_003,@#,INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal)">
+                  </a> <!-- runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_014,1000,INR,2,1,LOW_RATING,Feedback modal)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_010, 1000, INR, 2, 6, SYNC, Star &amp; slider sync)">
+                  </a> <!-- runTest(TC_010, 1000, INR, 2, 6, SYNC, Star & slider sync) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_010,1000,INR,2,6,SYNC,Star & slider sync)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay)">
+                  </a> <!-- runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_017,1000,INR,2,10,CELEBRATION,Overlay)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown)">
+                  </a> <!-- runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_013,1000,INR,2,5,POPUP,Popup shown)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled)">
+                  </a> <!-- runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_019,1000,INR,2,5,THEME,Theme toggled)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes)">
+                  </a> <!-- runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_005,1000,EUR,2,5,CURRENCY,Symbol changes)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works)">
+                  </a> <!-- runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_020,1000,INR,2,5,RESPONSIVE,UI works)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error)">
+                  </a> <!-- runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_007,1000,INR,1.5,5,INVALID_PEOPLE,Error)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared)">
+                  </a> <!-- runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_018,1000,INR,2,5,RESET,Cleared)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct)">
+                  </a> <!-- runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_012,1000,INR,2,5,SPLIT,Per person correct)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_003,@#,INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works)">
+                  </a> <!-- runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_009,1000,INR,2,5,SLIDER_RATING,Slider works)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_010, 1000, INR, 2, 6, SYNC, Star &amp; slider sync)">
+                  </a> <!-- runTest(TC_010, 1000, INR, 2, 6, SYNC, Star & slider sync) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_010,1000,INR,2,6,SYNC,Star & slider sync)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay)">
+                  </a> <!-- runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_017,1000,INR,2,9,CELEBRATION,Overlay)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal)">
+                  </a> <!-- runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_014,1000,INR,2,2,LOW_RATING,Feedback modal)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal)">
+                  </a> <!-- runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_014,1000,INR,2,1,LOW_RATING,Feedback modal)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown)">
+                  </a> <!-- runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_015,1000,INR,2,3,MEDIUM_RATING,Message shown)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct)">
+                  </a> <!-- runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_011,1000,INR,2,5,CALCULATION,Tip correct)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti)">
+                  </a> <!-- runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_016,1000,INR,2,6,HIGH_RATING,Confetti)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted)">
+                  </a> <!-- runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_006,1000,INR,3,5,VALID_PEOPLE,Accepted)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay)">
+                  </a> <!-- runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_017,1000,INR,2,10,CELEBRATION,Overlay)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes)">
+                  </a> <!-- runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_005,1000,USD,2,5,CURRENCY,Symbol changes)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_004,0,INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected)">
+                  </a> <!-- runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_008,1000,INR,2,7,STAR_RATING,Star selected)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted)">
+                  </a> <!-- runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_002,1000.5,INR,2,5,VALID,Bill accepted)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_004,-500,INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error)">
+                  </a> <!-- runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_007,1000,INR,-2,5,INVALID_PEOPLE,Error)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti)">
+                  </a> <!-- runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_016,1000,INR,2,8,HIGH_RATING,Confetti)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error)">
+                  </a> <!-- runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_007,1000,INR,0,5,INVALID_PEOPLE,Error)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_004, &quot;&quot;, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_004, "", INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_004,"",INR,2,5,INVALID_BILL,Error message)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:182)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown)">
+                  </a> <!-- runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_015,1000,INR,2,5,MEDIUM_RATING,Message shown)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=146.0.7680.178)
+Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7383bc9fa55a04ad4d7e03626dcbbb24, refresh {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\2484060\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52105}, goog:processID: 7064, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52105/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7383bc9fa55a04ad4d7e03626dcbbb24
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:686)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.refresh(RemoteWebDriver.java:1226)
+	at tests.TipCalculatorTest.runTest(TipCalculatorTest.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.TipCalculatorTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully)">
+                  </a> <!-- runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_001,NA,NA,NA,NA,LAUNCH,Page loads successfully)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully)">
+                  </a> <!-- runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_001,NA,NA,NA,NA,LAUNCH,Page loads successfully)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message)">
+                  </a> <!-- runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message) -->
+                  <span class="method-name">runTest</span>
+                  <span class="parameters">(TC_003,abc,INR,2,5,INVALID_BILL,Error message)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2484060\Downloads\AlphaTipCalculator (1)\AlphaTipCalculator\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TipCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;EdgeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.TipCalculatorTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EdgeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">EdgeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(60);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runTest')
+data.setCell(0, 2, 'tests.TipCalculatorTest')
+data.setCell(0, 3, 14777);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runTest')
+data.setCell(1, 2, 'tests.TipCalculatorTest')
+data.setCell(1, 3, 14691);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runTest')
+data.setCell(2, 2, 'tests.TipCalculatorTest')
+data.setCell(2, 3, 13216);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runTest')
+data.setCell(3, 2, 'tests.TipCalculatorTest')
+data.setCell(3, 3, 10938);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runTest')
+data.setCell(4, 2, 'tests.TipCalculatorTest')
+data.setCell(4, 3, 5121);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runTest')
+data.setCell(5, 2, 'tests.TipCalculatorTest')
+data.setCell(5, 3, 4027);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runTest')
+data.setCell(6, 2, 'tests.TipCalculatorTest')
+data.setCell(6, 3, 3923);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runTest')
+data.setCell(7, 2, 'tests.TipCalculatorTest')
+data.setCell(7, 3, 3503);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runTest')
+data.setCell(8, 2, 'tests.TipCalculatorTest')
+data.setCell(8, 3, 2167);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runTest')
+data.setCell(9, 2, 'tests.TipCalculatorTest')
+data.setCell(9, 3, 2165);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runTest')
+data.setCell(10, 2, 'tests.TipCalculatorTest')
+data.setCell(10, 3, 1801);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runTest')
+data.setCell(11, 2, 'tests.TipCalculatorTest')
+data.setCell(11, 3, 1789);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runTest')
+data.setCell(12, 2, 'tests.TipCalculatorTest')
+data.setCell(12, 3, 1753);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runTest')
+data.setCell(13, 2, 'tests.TipCalculatorTest')
+data.setCell(13, 3, 1747);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runTest')
+data.setCell(14, 2, 'tests.TipCalculatorTest')
+data.setCell(14, 3, 1738);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runTest')
+data.setCell(15, 2, 'tests.TipCalculatorTest')
+data.setCell(15, 3, 1736);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runTest')
+data.setCell(16, 2, 'tests.TipCalculatorTest')
+data.setCell(16, 3, 1729);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runTest')
+data.setCell(17, 2, 'tests.TipCalculatorTest')
+data.setCell(17, 3, 1723);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runTest')
+data.setCell(18, 2, 'tests.TipCalculatorTest')
+data.setCell(18, 3, 1717);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runTest')
+data.setCell(19, 2, 'tests.TipCalculatorTest')
+data.setCell(19, 3, 1706);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runTest')
+data.setCell(20, 2, 'tests.TipCalculatorTest')
+data.setCell(20, 3, 1705);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runTest')
+data.setCell(21, 2, 'tests.TipCalculatorTest')
+data.setCell(21, 3, 1697);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runTest')
+data.setCell(22, 2, 'tests.TipCalculatorTest')
+data.setCell(22, 3, 1658);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runTest')
+data.setCell(23, 2, 'tests.TipCalculatorTest')
+data.setCell(23, 3, 1614);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runTest')
+data.setCell(24, 2, 'tests.TipCalculatorTest')
+data.setCell(24, 3, 1591);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runTest')
+data.setCell(25, 2, 'tests.TipCalculatorTest')
+data.setCell(25, 3, 1535);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runTest')
+data.setCell(26, 2, 'tests.TipCalculatorTest')
+data.setCell(26, 3, 1501);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runTest')
+data.setCell(27, 2, 'tests.TipCalculatorTest')
+data.setCell(27, 3, 1482);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runTest')
+data.setCell(28, 2, 'tests.TipCalculatorTest')
+data.setCell(28, 3, 1480);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runTest')
+data.setCell(29, 2, 'tests.TipCalculatorTest')
+data.setCell(29, 3, 1452);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runTest')
+data.setCell(30, 2, 'tests.TipCalculatorTest')
+data.setCell(30, 3, 1420);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runTest')
+data.setCell(31, 2, 'tests.TipCalculatorTest')
+data.setCell(31, 3, 1416);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runTest')
+data.setCell(32, 2, 'tests.TipCalculatorTest')
+data.setCell(32, 3, 1067);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'runTest')
+data.setCell(33, 2, 'tests.TipCalculatorTest')
+data.setCell(33, 3, 224);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'runTest')
+data.setCell(34, 2, 'tests.TipCalculatorTest')
+data.setCell(34, 3, 38);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'runTest')
+data.setCell(35, 2, 'tests.TipCalculatorTest')
+data.setCell(35, 3, 29);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'runTest')
+data.setCell(36, 2, 'tests.TipCalculatorTest')
+data.setCell(36, 3, 21);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'runTest')
+data.setCell(37, 2, 'tests.TipCalculatorTest')
+data.setCell(37, 3, 19);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'runTest')
+data.setCell(38, 2, 'tests.TipCalculatorTest')
+data.setCell(38, 3, 17);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'runTest')
+data.setCell(39, 2, 'tests.TipCalculatorTest')
+data.setCell(39, 3, 13);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'runTest')
+data.setCell(40, 2, 'tests.TipCalculatorTest')
+data.setCell(40, 3, 13);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'runTest')
+data.setCell(41, 2, 'tests.TipCalculatorTest')
+data.setCell(41, 3, 12);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'runTest')
+data.setCell(42, 2, 'tests.TipCalculatorTest')
+data.setCell(42, 3, 11);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'runTest')
+data.setCell(43, 2, 'tests.TipCalculatorTest')
+data.setCell(43, 3, 11);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'runTest')
+data.setCell(44, 2, 'tests.TipCalculatorTest')
+data.setCell(44, 3, 10);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'runTest')
+data.setCell(45, 2, 'tests.TipCalculatorTest')
+data.setCell(45, 3, 10);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'runTest')
+data.setCell(46, 2, 'tests.TipCalculatorTest')
+data.setCell(46, 3, 10);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'runTest')
+data.setCell(47, 2, 'tests.TipCalculatorTest')
+data.setCell(47, 3, 9);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'runTest')
+data.setCell(48, 2, 'tests.TipCalculatorTest')
+data.setCell(48, 3, 8);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'runTest')
+data.setCell(49, 2, 'tests.TipCalculatorTest')
+data.setCell(49, 3, 7);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'runTest')
+data.setCell(50, 2, 'tests.TipCalculatorTest')
+data.setCell(50, 3, 7);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'runTest')
+data.setCell(51, 2, 'tests.TipCalculatorTest')
+data.setCell(51, 3, 7);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'runTest')
+data.setCell(52, 2, 'tests.TipCalculatorTest')
+data.setCell(52, 3, 7);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'runTest')
+data.setCell(53, 2, 'tests.TipCalculatorTest')
+data.setCell(53, 3, 6);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'runTest')
+data.setCell(54, 2, 'tests.TipCalculatorTest')
+data.setCell(54, 3, 5);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'runTest')
+data.setCell(55, 2, 'tests.TipCalculatorTest')
+data.setCell(55, 3, 5);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'runTest')
+data.setCell(56, 2, 'tests.TipCalculatorTest')
+data.setCell(56, 3, 5);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'runTest')
+data.setCell(57, 2, 'tests.TipCalculatorTest')
+data.setCell(57, 3, 5);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'runTest')
+data.setCell(58, 2, 'tests.TipCalculatorTest')
+data.setCell(58, 3, 4);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'runTest')
+data.setCell(59, 2, 'tests.TipCalculatorTest')
+data.setCell(59, 3, 4);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.TipCalculatorTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(edge)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully)</span>
+                <span class="method-start">14906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runTest(TC_001, NA, NA, NA, NA, LAUNCH, Page loads successfully)</span>
+                <span class="method-start">14906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted)</span>
+                <span class="method-start">17083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_002, 1000.5, INR, 2, 5, VALID, Bill accepted)</span>
+                <span class="method-start">17085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">21022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_003, abc, INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">31866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">35373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_003, @#, INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">35716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_004, "", INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">46658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_004, "", INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">48595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">51786 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_004, 0, INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">52627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">53381 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_004, -500, INR, 2, 5, INVALID_BILL, Error message)</span>
+                <span class="method-start">54168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes)</span>
+                <span class="method-start">54865 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_005, 1000, USD, 2, 5, CURRENCY, Symbol changes)</span>
+                <span class="method-start">55594 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes)</span>
+                <span class="method-start">56323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_005, 1000, EUR, 2, 5, CURRENCY, Symbol changes)</span>
+                <span class="method-start">57099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted)</span>
+                <span class="method-start">57809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_006, 1000, INR, 3, 5, VALID_PEOPLE, Accepted)</span>
+                <span class="method-start">58520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error)</span>
+                <span class="method-start">59427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_007, 1000, INR, 0, 5, INVALID_PEOPLE, Error)</span>
+                <span class="method-start">60264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error)</span>
+                <span class="method-start">61166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_007, 1000, INR, -2, 5, INVALID_PEOPLE, Error)</span>
+                <span class="method-start">62069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error)</span>
+                <span class="method-start">62866 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_007, 1000, INR, 1.5, 5, INVALID_PEOPLE, Error)</span>
+                <span class="method-start">63731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected)</span>
+                <span class="method-start">64576 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_008, 1000, INR, 2, 7, STAR_RATING, Star selected)</span>
+                <span class="method-start">65442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works)</span>
+                <span class="method-start">66310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_009, 1000, INR, 2, 5, SLIDER_RATING, Slider works)</span>
+                <span class="method-start">67198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_010, 1000, INR, 2, 6, SYNC, Star & slider sync)</span>
+                <span class="method-start">68104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_010, 1000, INR, 2, 6, SYNC, Star & slider sync)</span>
+                <span class="method-start">68948 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct)</span>
+                <span class="method-start">69825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_011, 1000, INR, 2, 5, CALCULATION, Tip correct)</span>
+                <span class="method-start">70677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct)</span>
+                <span class="method-start">70896 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_012, 1000, INR, 2, 5, SPLIT, Per person correct)</span>
+                <span class="method-start">70906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown)</span>
+                <span class="method-start">70915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_013, 1000, INR, 2, 5, POPUP, Popup shown)</span>
+                <span class="method-start">70924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal)</span>
+                <span class="method-start">70933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_014, 1000, INR, 2, 1, LOW_RATING, Feedback modal)</span>
+                <span class="method-start">70958 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal)</span>
+                <span class="method-start">70980 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_014, 1000, INR, 2, 2, LOW_RATING, Feedback modal)</span>
+                <span class="method-start">70981 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown)</span>
+                <span class="method-start">70996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_015, 1000, INR, 2, 3, MEDIUM_RATING, Message shown)</span>
+                <span class="method-start">70998 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown)</span>
+                <span class="method-start">71019 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_015, 1000, INR, 2, 5, MEDIUM_RATING, Message shown)</span>
+                <span class="method-start">71022 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti)</span>
+                <span class="method-start">71029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_016, 1000, INR, 2, 6, HIGH_RATING, Confetti)</span>
+                <span class="method-start">71030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti)</span>
+                <span class="method-start">71036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_016, 1000, INR, 2, 8, HIGH_RATING, Confetti)</span>
+                <span class="method-start">71037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay)</span>
+                <span class="method-start">71051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_017, 1000, INR, 2, 9, CELEBRATION, Overlay)</span>
+                <span class="method-start">71052 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay)</span>
+                <span class="method-start">71062 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_017, 1000, INR, 2, 10, CELEBRATION, Overlay)</span>
+                <span class="method-start">71064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared)</span>
+                <span class="method-start">71069 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_018, 1000, INR, 2, 5, RESET, Cleared)</span>
+                <span class="method-start">71072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled)</span>
+                <span class="method-start">71079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_019, 1000, INR, 2, 5, THEME, Theme toggled)</span>
+                <span class="method-start">71081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works)</span>
+                <span class="method-start">71089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runTest(TC_020, 1000, INR, 2, 5, RESPONSIVE, UI works)</span>
+                <span class="method-start">71093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71100 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71100 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
